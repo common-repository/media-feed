@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "media-feed/media-feed-icon-block",
+  "title": "Media Feed Icon",
+  "category": "widgets",
+  "icon": "rss",
+  "description": "Links to feeds are displayed as icons.",
+  "keywords": [
+	"feed",
+	"media",
+	"image",
+	"audio",
+	"video",
+	"misc",
+	"rss"
+  ],
+  "version": "1.0.3",
+  "textdomain": "media-feed",
+  "supports": {
+    "customClassName": false,
+    "className": false,
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
